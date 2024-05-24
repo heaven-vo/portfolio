@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal Portfolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"> </i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Vo Chi Cong</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I ‘m a Developer Fresher with nearly 1 year of experience (including 4 months of experience as a web development intern at FPT Academy) with good knowledge of Object-Oriented Analysis and Design, Database Design, SOLID principles, and Design Patterns.</p>
+            <div class="social-media">
+                <a href='https://github.com/heaven-vo'><i class='bx bxl-github'></i></a>
+                <a href='https://www.facebook.com/heaven0405/'><i class='bx bxl-facebook' ></i></a>
+                <a href='https://www.linkedin.com/in/heaven-vo/'><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="file/CV_Fresher Developer_Vo Chi Cong.pdf" download="CV_Fresher Developer_Vo Chi Cong" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="image/Me.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/Me.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Fresher Developer</h3>
+            <p>• Programming Languages: Java, C#, Python, JavaScript, HTML5, CSS3 </p>
+            <p>• Frameworks/ Platforms: Spring, ReactJS </p>
+            <p>• Database Management Systems: PostgreSQL, MySQL, MongoDB </p>   
+            <p>• Version Control: Github, Jira</p>  
+            <p>• Foreign Languages: English (Intermediate)</p> 
+            <p>• Others:</p>
+            <p>  &nbsp	-	&nbsp Good understanding of OOP methodologies, SOLID principles, and design patterns.</p>
+            <p>  &nbsp	-	&nbsp Good understanding of the Agile and Scrum development process.</p>
+            <p>  &nbsp	-	&nbsp Have experience with Web server (Tomcat), API documentation (Swagger).</p>
+            <p>  &nbsp	-	&nbsp Have experience with Cloud Computing Platforms: Azure & Google Cloud Platform.</p>
+            <p>  &nbsp	-	&nbsp Experience in setting up CI/CD pipelines.</p>
+            <p>  &nbsp	-	&nbsp Good understanding of RESTful APIs and microservices architecture.</p>
+            <p>  &nbsp	-	&nbsp Good understanding of REST and SOAP web services.</p>
+            <a href="https://www.linkedin.com/in/heaven-vo/" class="btn">Read more</a>
+        </div>   
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Backend Developer</h3>
+                <p>......................................................</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-data'></i>
+                <h3>Data Developer</h3>
+                <p>......................................................</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/Me.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Cong Dong Chung Cu</h4>
+                    <p>The system provides ordering and delivery services within the apartment complex, including a system homepage, a mobile application for delivery people, an application for users, and an application for stores. Goods - buy/sell at your fingertips.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/als.PNG" alt="">
+                <div class="portfolio-layer">
+                    <h4>ALS VietNam</h4>
+                    <p>A free website providing information about the disease ALS (Amyotrophic Lateral Sclerosis). The purpose is to help improve community knowledge as well as help ALS patients in Vietnam have more useful information</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/Me.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Shopping</h4>
+                    <p>A personal product, demonstrating the functions of a sales website that businesses often need to set up</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Vo Chi Cong">
+                <input type="email" placeholder="congvo.heaven@gmail.com">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="0973 580 341">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Vo Chi Cong</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"> <i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src='script.js'></script>
+</body>
+</html>
